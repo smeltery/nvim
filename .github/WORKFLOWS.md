@@ -198,8 +198,8 @@ Or remove/rename the workflow file.
 Add to README.md:
 
 ```markdown
-![CI](https://github.com/dotbrains/nvim/workflows/CI/badge.svg)
-![Release](https://github.com/dotbrains/nvim/workflows/Release/badge.svg)
+![CI](https://github.com/smeltery/nvim/workflows/CI/badge.svg)
+![Release](https://github.com/smeltery/nvim/workflows/Release/badge.svg)
 ```
 
 ---

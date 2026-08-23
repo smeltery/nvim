@@ -1,8 +1,8 @@
 # 🧙🏼 nvim
 
-[![CI](https://github.com/dotbrains/nvim/actions/workflows/ci.yml/badge.svg)](https://github.com/dotbrains/nvim/actions/workflows/ci.yml)
-[![Auto Update](https://github.com/dotbrains/nvim/actions/workflows/auto-update.yml/badge.svg)](https://github.com/dotbrains/nvim/actions/workflows/auto-update.yml)
-[![Release](https://github.com/dotbrains/nvim/actions/workflows/release.yml/badge.svg)](https://github.com/dotbrains/nvim/actions/workflows/release.yml)
+[![CI](https://github.com/smeltery/nvim/actions/workflows/ci.yml/badge.svg)](https://github.com/smeltery/nvim/actions/workflows/ci.yml)
+[![Auto Update](https://github.com/smeltery/nvim/actions/workflows/auto-update.yml/badge.svg)](https://github.com/smeltery/nvim/actions/workflows/auto-update.yml)
+[![Release](https://github.com/smeltery/nvim/actions/workflows/release.yml/badge.svg)](https://github.com/smeltery/nvim/actions/workflows/release.yml)
 [![License: PolyForm Shield 1.0.0](https://img.shields.io/badge/License-PolyForm%20Shield%201.0.0-blue.svg)](https://polyformproject.org/licenses/shield/1.0.0)
 
 > A modern, organized, and feature-rich Neovim configuration built for productivity
@@ -42,7 +42,7 @@ The easiest way to install is using the automated installation script.
 
 ```bash
 # Clone the repository
-git clone https://github.com/dotbrains/nvim ~/.config/nvim
+git clone https://github.com/smeltery/nvim ~/.config/nvim
 
 # Run the installer
 cd ~/.config/nvim
@@ -94,7 +94,7 @@ mv ~/.config/nvim ~/.config/nvim.backup
 **Clone this repository:**
 
 ```bash
-git clone https://github.com/dotbrains/nvim ~/.config/nvim
+git clone https://github.com/smeltery/nvim ~/.config/nvim
 ```
 
 #### 4. Launch Neovim
@@ -194,7 +194,7 @@ You can test this configuration in a clean Ubuntu/Debian environment using Docke
 docker run -it --rm ubuntu:22.04 bash -c "
   apt-get update &&
   apt-get install -y git curl sudo &&
-  git clone https://github.com/dotbrains/nvim /root/.config/nvim &&
+  git clone https://github.com/smeltery/nvim /root/.config/nvim &&
   cd /root/.config/nvim &&
   ./install.sh
 "
@@ -203,7 +203,7 @@ docker run -it --rm ubuntu:22.04 bash -c "
 docker run -it --rm debian:12 bash -c "
   apt-get update &&
   apt-get install -y git curl sudo &&
-  git clone https://github.com/dotbrains/nvim /root/.config/nvim &&
+  git clone https://github.com/smeltery/nvim /root/.config/nvim &&
   cd /root/.config/nvim &&
   ./install.sh
 "
@@ -218,7 +218,7 @@ docker run -it --rm ubuntu:22.04 bash
 # Inside the container
 apt-get update
 apt-get install -y git curl sudo
-git clone https://github.com/dotbrains/nvim /root/.config/nvim
+git clone https://github.com/smeltery/nvim /root/.config/nvim
 cd /root/.config/nvim
 ./install.sh
 
@@ -239,7 +239,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Clone configuration
-RUN git clone https://github.com/dotbrains/nvim /root/.config/nvim
+RUN git clone https://github.com/smeltery/nvim /root/.config/nvim
 
 # Run installer
 WORKDIR /root/.config/nvim
@@ -325,7 +325,7 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for:
 - Coding guidelines
 - Pull request process
 
-If you find bugs or have suggestions, please [open an issue](https://github.com/dotbrains/nvim/issues).
+If you find bugs or have suggestions, please [open an issue](https://github.com/smeltery/nvim/issues).
 
 ## 📝 License
 
